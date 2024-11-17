@@ -28,140 +28,140 @@ Denne metode er designet til projektledere, IT-arkitekter, udviklere og andre, d
 ### Indholdsfortegnelse
 
 1. **Dokumentation af Metode for Systemer, Services og Integrationer**  
-  1.1 Overblik over Metoden  
-  1.2 Definition af Centrale Begreber  
-    1.2.1 Systemer  
-    1.2.2 Services  
-    1.2.3 Integrationer  
-  1.3 Formålet med Struktureret Dokumentation  
+    1.1 Overblik over Metoden  
+    1.2 Definition af Centrale Begreber  
+        1.2.1 Systemer  
+        1.2.2 Services  
+        1.2.3 Integrationer  
+    1.3 Formålet med Struktureret Dokumentation  
 
 2. **Organisering af Dokumentationen**  
-  2.1 Oversigt over Dokumenttyper  
-    2.1.1 Systemdokumentation  
-    2.1.2 Servicebeskrivelser  
-    2.1.3 Integrationsspecifikationer  
-  2.2 Relationer mellem Dokumenter  
-    2.2.1 Hvordan Dokumenterne Interagerer  
-    2.2.2 Referencer og Krydsreferencer  
-    2.2.3 Eksempel på Relationer  
-  2.3 Metoder til at Sikre Konsistens og Undgå Redundans
-    2.3.1 Standardiserede Skabeloner
-    2.3.2 Fælles Terminologi og Ordlister
-    2.3.3 Versionskontrol og Dokumentstyring
-    2.3.4 Regelmæssige Gennemgange og Kvalitetssikring
-    2.3.5 Centraliseret Dokumentationsrepository
-    2.3.6 Anvendelse af Modelleringsværktøjer
-    .4 Samarbejde mellem Projektdeltagere  
-  2.4 Samarbejde mellem Projektdeltagere  
+    2.1 Oversigt over Dokumenttyper  
+        2.1.1 Systemdokumentation  
+        2.1.2 Servicebeskrivelser  
+        2.1.3 Integrationsspecifikationer  
+    2.2 Relationer mellem Dokumenter  
+        2.2.1 Hvordan Dokumenterne Interagerer  
+        2.2.2 Referencer og Krydsreferencer  
+        2.2.3 Eksempel på Relationer  
+    2.3 Metoder til at Sikre Konsistens og Undgå Redundans
+        2.3.1 Standardiserede Skabeloner
+        2.3.2 Fælles Terminologi og Ordlister
+        2.3.3 Versionskontrol og Dokumentstyring
+        2.3.4 Regelmæssige Gennemgange og Kvalitetssikring
+        2.3.5 Centraliseret Dokumentationsrepository
+        2.3.6 Anvendelse af Modelleringsværktøjer
+    2.4 Samarbejde mellem Projektdeltagere  
 
 3. **Detaljeret Beskrivelse af Dokumenter**  
-  3.1 Systemdokumentation
-    3.1.1 Systembeskrivelse
-    3.1.2 Forretningsprocesser
-    3.1.3 Teknisk Arkitektur
-    3.1.4 Datamodel
-    3.1.5 Sikkerhed og Compliance
-  3.2 Servicebeskrivelser
-    3.2.1 Funktionalitet
-    3.2.2 API-specifikationer
-    3.2.3 Forretningsregler
-    3.2.4 Interaktionsdiagrammer
-    3.2.5 Ydeevne og Skalerbarhed
-  3.3 Integrationsspecifikationer
-    3.3.1 Integrationsoversigt
-    3.3.2 Data Mapping
-    3.3.3 Event Definitioner
-    3.3.4 Fejlhåndtering og Logging
-    3.3.5 Testplaner
+    3.1 Systemdokumentation
+        3.1.1 Systembeskrivelse
+        3.1.2 Forretningsprocesser
+        3.1.3 Teknisk Arkitektur
+        3.1.4 Datamodel
+        3.1.5 Sikkerhed og Compliance
+    3.2 Servicebeskrivelser
+        3.2.1 Funktionalitet
+        3.2.2 API-specifikationer
+        3.2.3 Forretningsregler
+        3.2.4 Interaktionsdiagrammer
+        3.2.5 Ydeevne og Skalerbarhed
+    3.3 Integrationsspecifikationer
+        3.3.1 Integrationsoversigt
+        3.3.2 Data Mapping
+        3.3.3 Event Definitioner
+        3.3.4 Fejlhåndtering og Logging
+        3.3.5 Testplaner
 
 4. **Anvendelse af Modelleringsværktøjer**  
-  4.1 BPMN (Business Process Model and Notation)  
-  4.2 UML (Unified Modeling Language)  
-    4.2.1 UML Klassediagrammer  
-    4.2.2 UML Sekvensdiagrammer  
-    4.2.3 UML Komponentdiagrammer  
-    4.2.4 UML Aktivitetsdiagrammer  
-  4.3 Archimate  
-  4.4 DMN (Decision Model and Notation)  
-  4.5 Sammenhæng mellem Modelleringsværktøjer  
-  4.6 Anbefalinger for Anvendelse  
-  4.7 Fordele ved Anvendelse af Modelleringsværktøjer  
+    4.1 BPMN (Business Process Model and Notation)  
+    4.2 UML (Unified Modeling Language)  
+        4.2.1 UML Klassediagrammer  
+        4.2.2 UML Sekvensdiagrammer  
+        4.2.3 UML Komponentdiagrammer  
+        4.2.4 UML Aktivitetsdiagrammer  
+    4.3 Archimate  
+    4.4 DMN (Decision Model and Notation)  
+    4.5 Sammenhæng mellem Modelleringsværktøjer  
+    4.6 Anbefalinger for Anvendelse  
+    4.7 Fordele ved Anvendelse af Modelleringsværktøjer  
 
 5. **Standard Integrationsmønstre**  
-  5.1 Message Channel (Meddelelseskanal)  
-  5.2 Message Endpoint (Meddelelsesendepunkt)  
-  5.3 Adapter (Adaptermønster)  
-  5.4 Message Translator (Meddelelsesoversætter)  
-  5.5 Canonical Data Model (Kanonisk Datamodel)  
-  5.6 Publish-Subscribe Channel (Publish-Subscribe Kanal)  
-  5.7 Event-Driven Architecture (Event-Drevet Arkitektur)  
-  5.8 Content-Based Router (Indholdsbaseret Router)  
-  5.9 Message Filter (Meddelelsesfilter)  
-  5.10 Aggregator (Sammenlægger)  
-  5.11 Transformation (Transformationsmønster)  
-  5.12 Message Broker (Meddelelsesbroker)  
-  5.13 Anvendelse af Mønstre i Projektet  
-  5.14 Fordele ved Anvendelse af Standard Integrationsmønstre  
-  5.15 Konklusion  
+    5.1 Message Channel (Meddelelseskanal)  
+    5.2 Message Endpoint (Meddelelsesendepunkt)  
+    5.3 Adapter (Adaptermønster)  
+    5.4 Message Translator (Meddelelsesoversætter)  
+    5.5 Canonical Data Model (Kanonisk Datamodel)  
+    5.6 Publish-Subscribe Channel (Publish-Subscribe Kanal)  
+    5.7 Event-Driven Architecture (Event-Drevet Arkitektur)  
+    5.8 Content-Based Router (Indholdsbaseret Router)  
+    5.9 Message Filter (Meddelelsesfilter)  
+    5.10 Aggregator (Sammenlægger)  
+    5.11 Transformation (Transformationsmønster)  
+    5.12 Message Broker (Meddelelsesbroker)  
+    5.13 Anvendelse af Mønstre i Projektet  
+    5.14 Fordele ved Anvendelse af Standard Integrationsmønstre  
+    5.15 Konklusion  
 
 6. **Fordele ved Metoden**  
-  6.1 Klarhed og Overblik  
-    6.1.1 Forbedret Forståelse af Systemer  
-    6.1.2 Tydeliggørelse af Services  
-    6.1.3 Visualisering af Integrationer  
-  6.2 Effektivitet og Genbrug  
-    6.2.1 Reduceret Dobbeltarbejde  
-    6.2.2 Hurtigere Onboarding  
-    6.2.3 Bedre Planlægning og Estimering  
-  6.3 Forbedret Samarbejde og Kommunikation  
-    6.3.1 Fælles Sprog og Terminologi  
-    6.3.2 Tværfagligt Samarbejde  
-    6.3.3 Interessentinddragelse  
-  6.4 Kvalitet og Skalerbarhed  
+    6.1 Klarhed og Overblik  
+        6.1.1 Forbedret Forståelse af Systemer  
+        6.1.2 Tydeliggørelse af Services  
+        6.1.3 Visualisering af Integrationer  
+    6.2 Effektivitet og Genbrug  
+        6.2.1 Reduceret Dobbeltarbejde  
+        6.2.2 Hurtigere Onboarding  
+        6.2.3 Bedre Planlægning og Estimering  
+    6.3 Forbedret Samarbejde og Kommunikation  
+        6.3.1 Fælles Sprog og Terminologi  
+        6.3.2 Tværfagligt Samarbejde  
+        6.3.3 Interessentinddragelse  
+        6.4 Kvalitet og Skalerbarhed  
     6.4.1 Bedre Fejlfinding og Vedligeholdelse  
-    6.4.2 Understøttelse af Fremtidig Udvikling  
-    6.4.3 Overholdelse af Standarder og Compliance  
-  6.5 Risikoreduktion  
-    6.5.1 Tidlig Identifikation af Problemer  
-    6.5.2 Klar Ansvarsfordeling  
-    6.5.3 Forberedelse på Ændringer  
-  6.6 Økonomiske Besparelser  
-    6.6.1 Reducerede Udviklingsomkostninger  
-    6.6.2 Lavere Vedligeholdelsesomkostninger  
-    6.6.3 Forbedret Projektstyring  
-  6.7 Fremme af Innovation  
-    6.7.1 Genbrug af Komponenter  
-    6.7.2 Understøttelse af Nye Initiativer  
+        6.4.2 Understøttelse af Fremtidig Udvikling  
+        6.4.3 Overholdelse af Standarder og Compliance  
+    6.5 Risikoreduktion  
+        6.5.1 Tidlig Identifikation af Problemer  
+        6.5.2 Klar Ansvarsfordeling  
+        6.5.3 Forberedelse på Ændringer  
+    6.6 Økonomiske Besparelser  
+        6.6.1 Reducerede Udviklingsomkostninger  
+        6.6.2 Lavere Vedligeholdelsesomkostninger  
+        6.6.3 Forbedret Projektstyring  
+    6.7 Fremme af Innovation  
+        6.7.1 Genbrug af Komponenter  
+        6.7.2 Understøttelse af Nye Initiativer  
 
 7. **Konklusion**  
-  7.1 Opsummering af Nøglepunkter  
-    7.1.1 Behovet for Struktureret Dokumentation  
-    7.1.2 Organisering omkring Systemer, Services og Integrationer  
-    7.1.3 Anvendelse af Standardiserede Modelleringsværktøjer  
-    7.1.4 Implementering af Metoden  
-    7.1.5 Fordele ved Metoden  
-  7.2 Anbefalinger  
-    7.2.1 Aktiv Implementering og Engagement  
-    7.2.2 Ledelsesstøtte  
-    7.2.3 Løbende Forbedring  
-    7.2.4 Fremme af Samarbejde  
-  7.3 Fremtidsperspektiver  
-  7.4 Afsluttende Bemærkninger  
+    7.1 Opsummering af Nøglepunkter  
+        7.1.1 Behovet for Struktureret Dokumentation  
+        7.1.2 Organisering omkring Systemer, Services og Integrationer  
+        7.1.3 Anvendelse af Standardiserede Modelleringsværktøjer  
+        7.1.4 Implementering af Metoden  
+        7.1.5 Fordele ved Metoden  
+    7.2 Anbefalinger  
+        7.2.1 Aktiv Implementering og Engagement  
+        7.2.2 Ledelsesstøtte  
+        7.2.3 Løbende Forbedring  
+        7.2.4 Fremme af Samarbejde  
+    7.3 Fremtidsperspektiver  
+    7.4 Afsluttende Bemærkninger  
 
 8. **Bilag**  
-  8.1 Eksempler på Dokumentationsskabeloner  
-    8.1.1 Skabelon for Systemdokumentation  
-    8.1.2 Skabelon for Servicebeskrivelser  
-    8.1.3 Skabelon for Integrationsspecifikationer  
-  8.2 Ordliste over Tekniske Termer  
-  8.3 Ressourcer og Referencer  
-    8.3.1 Litteratur  
-    8.3.2 Online Ressourcer  
-    8.3.3 Softwareværktøjer  
-  8.4 Kontaktoplysninger
+    8.1 Eksempler på Dokumentationsskabeloner  
+        8.1.1 Skabelon for Systemdokumentation  
+        8.1.2 Skabelon for Servicebeskrivelser  
+        8.1.3 Skabelon for Integrationsspecifikationer  
+    8.2 Ordliste over Tekniske Termer  
+    8.3 Ressourcer og Referencer  
+        8.3.1 Litteratur  
+        8.3.2 Online Ressourcer  
+        8.3.3 Softwareværktøjer  
+    8.4 Kontaktoplysninger
 
 9. **Afsluttende Bemærkninger**
 
+---
 
 ## 1. Dokumentation af Metode for Systemer, Services og Integrationer
 
@@ -208,23 +208,18 @@ Ved klart at skelne mellem systemer, services og integrationer kan man organiser
 En struktureret tilgang til dokumentation er ikke blot en administrativ opgave; det er en strategisk nødvendighed for projektets succes. Formålet med denne metode er mangesidet:
 
 1. **Fremme Klarhed og Fælles Forståelse**
-
    Når alle projektdeltagere har adgang til velorganiseret og detaljeret dokumentation, reduceres risikoen for misforståelser og fejl. Klar dokumentation sikrer, at alle har den samme forståelse af systemernes funktioner, de services, der er tilgængelige, og hvordan integrationerne er designet til at fungere.
 
 2. **Understøtte Genbrug og Effektivitet**
-
    Ved at dokumentere systemer og services separat fra specifikke integrationer kan vi genbruge disse beskrivelser i flere sammenhænge. Dette reducerer dobbeltarbejde og fremmer en mere effektiv udviklingsproces, da teammedlemmer nemt kan referere til eksisterende dokumentation frem for at skabe ny fra bunden.
 
 3. **Sikre Konsistens og Kvalitet**
-
    Standardiseret dokumentation hjælper med at opretholde konsistens på tværs af projektet. Ved at anvende fælles modelleringsværktøjer og formatkrav sikrer vi, at dokumenterne er lette at læse og forstå, hvilket bidrager til højere kvalitet i både dokumentation og de leverede løsninger.
 
 4. **Facilitere Samarbejde og Kommunikation**
-
    En fælles dokumentationspraksis gør det nemmere for forskellige teams—herunder forretningsanalytikere, udviklere, arkitekter og projektledere—at arbejde sammen. Det tjener som en fælles reference, der understøtter beslutningstagning og problemløsning.
 
 5. **Muliggøre Fremtidig Vedligeholdelse og Skalering**
-
    Projekter udvikler sig, og systemer opdateres. Med velstruktureret dokumentation bliver det lettere at vedligeholde eksisterende løsninger og skalere systemerne i fremtiden. Nye teammedlemmer kan hurtigt sætte sig ind i systemerne, og ændringer kan implementeres med fuld forståelse af konsekvenserne.
 
 ---
@@ -1104,7 +1099,7 @@ Med en solid forståelse af det nuværende teknologilandskab er det lettere at v
 
 ---
 
-Dette afslutter kapitel 5 hvor vi har beskrevet hvor dan beskrevne dokumentationsmetode til en række væsentlige fordele, der strækker sig ud over selve dokumentationen. Den forbedrer projektets samlede effektivitet, reducerer risici, fremmer samarbejde og skaber grundlaget for fremtidig vækst og innovation. Ved at investere i en struktureret og gennemtænkt dokumentationspraksis positionerer vi os selv til ikke blot at lykkes med det aktuelle projekt, men også til at håndtere fremtidige udfordringer med større selvtillid og kompetence.
+Dette afslutter kapitel 6 hvor vi har beskrevet hvor dan beskrevne dokumentationsmetode til en række væsentlige fordele, der strækker sig ud over selve dokumentationen. Den forbedrer projektets samlede effektivitet, reducerer risici, fremmer samarbejde og skaber grundlaget for fremtidig vækst og innovation. Ved at investere i en struktureret og gennemtænkt dokumentationspraksis positionerer vi os selv til ikke blot at lykkes med det aktuelle projekt, men også til at håndtere fremtidige udfordringer med større selvtillid og kompetence.
 
 # 7. Konklusion
 
@@ -1162,9 +1157,9 @@ Implementeringen af denne dokumentationsmetode er ikke kun til gavn for det aktu
 - **Understøtte Innovation**: Hurtigere udvikle og implementere nye løsninger ved at genbruge eksisterende komponenter.
 - **Forbedre Konkurrenceevne**: Levere højere kvalitet og mere pålidelige løsninger til kunder og interessenter.
 
-## 7.4 Afsluttende Bemærkninger
+---
 
-At investere tid og ressourcer i en struktureret dokumentationsmetode er en strategisk beslutning, der vil betale sig på både kort og lang sigt. Det bidrager til en mere effektiv udviklingsproces, reducerer risici og fremmer en kultur af kvalitet og professionalisme.
+Dette afslutter kapitel 7 hvor vi har gennemgået fordelene ved at investere tid og ressourcer i en struktureret dokumentationsmetode, og hvordan det er en strategisk beslutning, der vil betale sig på både kort og lang sigt. Det bidrager til en mere effektiv udviklingsproces, reducerer risici og fremmer en kultur af kvalitet og professionalisme.
 
 Vi opfordrer alle projektdeltagere til at tage ejerskab over dokumentationen og se den som en integreret del af deres arbejde. Sammen kan vi sikre, at vores integrationsprojekt ikke blot opfylder sine mål, men også sætter en ny standard for, hvordan vi håndterer komplekse teknologiske udfordringer.
 
@@ -1422,13 +1417,12 @@ For at effektivisere dokumentationsprocessen og sikre konsistens anbefales det a
 #### **Modelleringsværktøjer**
 
 - **Enterprise Architect (Sparx Systems)**: Understøtter UML, BPMN og Archimate.
-- **Visual Paradigm**: Giver mulighed for samarbejde og understøtter flere modelleringssprog.
-- **Camunda Modeler**: Gratis værktøj til BPMN og DMN modellering.
+- **Archi**: Giver mulighed for at modellere Archimate og samarbejde om modeller ved deling af modeller via Git versionsstyring.
+- **PlantUML**: Gratis værktøj til modellering af en lang række af forskellige diagrammer via en simpel syntaks.
 
 #### **Dokumentationsværktøjer**
 
-- **Confluence (Atlassian)**: Til oprettelse af levende dokumentation med mulighed for samarbejde.
-- **Microsoft Word med Skabeloner**: Brug tilpassede skabeloner for konsistens.
+- **Microsoft Excel**: Til udarbejdelse af begrebslister, rolle- og rettighedsmodel eller datadictionary mv.
 - **SharePoint**: Til dokumenthåndtering og versionskontrol.
 
 #### **API Dokumentationsværktøjer**
@@ -1439,7 +1433,7 @@ For at effektivisere dokumentationsprocessen og sikre konsistens anbefales det a
 #### **Versionskontrol og Samarbejde**
 
 - **Git og GitHub/GitLab**: Til versionsstyring af dokumentation og kode.
-- **Microsoft Teams eller Slack**: Til kommunikation og koordinering.
+- **Microsoft Teams**: Til kommunikation og koordinering.
 
 ---
 
@@ -1527,6 +1521,7 @@ For yderligere information og uddybning af emnerne i denne metodebeskrivelse anb
 - **Object Management Group (OMG)**: Organisationen bag standarderne for UML, BPMN og DMN. [www.omg.org](https://www.omg.org/)
 - **The Open Group**: Ressourcer om Archimate og virksomhedens arkitektur. [www.opengroup.org/archimate](https://www.opengroup.org/archimate)
 - **Swagger/OpenAPI**: Værktøjer og dokumentation for API-specifikationer. [swagger.io](https://swagger.io/)
+- **AsyncAPI**: Værktøjer og dokumentation for asynkrone API-specifikationer. [asyncapi.com](https://www.asyncapi.com/)
 
 ### 8.3.3 Softwareværktøjer
 
